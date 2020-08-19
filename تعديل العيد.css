@@ -541,4 +541,5 @@ span.minix.badge.border,span.bwall.minix.badge.border,span.brooms.minix.badge.bo
 .badge{display:inline!important;background-color:#7770;border-radius:33%;border:#1f95a208 solid 1px!important;margin-left:-5px;vertical-align:top}
 .fa-volume-up:before{content:"\f08a"}
 h3.popover-title,.fa-commenting-o::before,.fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg.fa-comment::before,.fa-envelope-o::before,.fa-diamond::before,.fa-search::before,.fa-ban::before,.fa-ban::before,.fa-user-times::before{display:none}
-.ae.fa.label.label-primary.fa-users.btnClAlGr:before{content:"\f1d1";}
+.ae.fa.label.label-primary.fa-users.btnClAlGr:before{content:"\f1d1"}
+.ae.fa.label.label-primary.fa-users:before{content:""}
