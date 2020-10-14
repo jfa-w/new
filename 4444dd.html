@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Player اذاعة شات جفى للجوال</title>
+	<meta name="description" content="Radio King propose des services Internet pour les Radios! Créez facilement votre Radio sur Internet, concevez le Site de votre Radio ou développez votre propre Application Mobile Radio!" />
+	<meta name="keywords" content="créer site radio, hébergement radio, créer webradio, créer radio, radio, radios, player, radio fm, webradio, création de site, site internet, développement, développeur, radioking, radio king, streaming, shoutcast, cms radio, radio sur le web, cloud dj, radio broadcast, playlist radio, diffusion radio, application mobile, application radio, application radio iphone, application radio android, créer application iphone, site en ligne, radio sur internet" />
+	<meta charset="utf-8">
+						<meta property="og:url" content="https://www.radioking.com/radio/dh-sht-jf-lljwl" />
+		
+		<meta property="og:title" content="اذاعة شات جفى للجوال" />
+		<meta property="og:description" content="" />
+		<meta property="og:image" content="https://d1taocs3kfk7z6.cloudfront.net/track/cover/3b297613-4356-4eaf-955b-39235cb4d407" />
+	
+	<link rel="stylesheet" type="text/css" href="https://www.radioking.com/widgets/player/css/ui-lightness/jquery-ui-1.10.3.custom.min.css"/>
+
+<link rel="stylesheet" type="text/css" href="https://www.radioking.com/widgets/player/css/legacy/player.css" />
+<link rel="stylesheet" type="text/css" href="https://www.radioking.com/widgets/player/css/legacy/fonts.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://www.radioking.com/widgets/player/css/legacy/player-big.css" />
+
+
+<style>
+    #global, .ui-slider .ui-slider-range, #titrageBgColor
+    {
+        background-color: #1E7FCB;
+    }
+</style>
+    <script type="text/javascript">
+        var lang = 'en';
+    </script>
+</head>
+<body>
+	<div id="global">
+	<div id="main">
+		<div id="header">
+			<a href="javascript:void();" target="_blank" title="\u0627\u0630\u0627\u0639\u0629 \u0634\u0627\u062a \u062c\u0641\u0649 \u0644\u0644\u062c\u0648\u0627\u0644">
+				<h1 id="nomRadio">اذاعة شات جفى للجوال</h1>
+			</a>
+		</div>
+
+					<a id="btnPopup" href="javascript:void(0)" title="Open in a pop-up" class="fadeThis tooltip-right">
+				<span class="hover" style="display: none;"></span>
+			</a>
+		
+		<div id="pochetteHolder"></div>
+		<div id="pochette">
+		</div>
+
+		<div id="mainTitrage">
+		<div id="effectTitrage">
+			<div id="titrage">
+				<span id="artiste" class="artiste"></span>
+				<span id="titre" class="titre"></span>
+			</div>
+
+							<a id="btnDownload" title="Download this track" class="fadeThis" target="_blank" href="javascript:void(0)">
+					<span class="hover" style="display: none;"></span><span class="libelle">Download</span>
+				</a>
+			
+						<a id="btnShare" title="Share this track"  class="fadeThis">
+				<span class="hover" style="display: none;"></span><span class="libelle">Share</span>
+			</a>
+			
+			<div id="titrageBg">
+			</div>
+			<div id="titrageBgColor">
+			</div>
+
+							<div id="separator2Share"></div>
+				<div id="separatorShare"></div>
+				<div id="sharePanel">
+					<div id="closeShare"></div>
+					<p>SHARE THIS TRACK</p>
+
+					<ul>
+												<li>
+							<script>
+							function playerRadioPartageButton() {
+								window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.radioking.com/widgets/playerfb/player.php?facebookkey=134104bdcf3bcef89e67a5af6aae89278d7373fa','playerRadioPartage','toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=640,height=310');
+							}
+							</script>
+
+							<a id="linkFacebook" title="Share this track" onclick="playerRadioPartageButton();return false;" target="_blank" href="#">
+								<img src="https://www.radioking.com/widgets/player/images/legacy/ico-facebook.png" alt="Share on Facebook" />
+							</a>
+
+						</li>
+												<li>
+							<a id="linkTwitter" title="Share on Twitter" target="_blank" href="javascript:void(0)"><img src="https://www.radioking.com/widgets/player/images/legacy/ico-twitter.png" alt="Share on Twitter" /></a>
+						</li>
+						<li>
+							<a id="linkGoogle" title="Share on Google Plus" target="_blank" href="javascript:void(0)">
+							<img src="https://www.radioking.com/widgets/player/images/legacy/ico-googleplus.png" alt="Share on Google Plus" /></a>
+						</li>
+					</ul>
+
+					<span class="code">Code to embed</span>
+					<input type="text" value='<iframe src="https://www.radioking.com/widgets/player/player.php?id=364342&amp;f=big" width="445" height="196" frameborder="0"></iframe>' />
+
+				</div>
+					</div>
+		</div>
+		<div id="btnPlay"></div>
+		<div id="loading"></div>
+		<div id="btnStop"></div>
+		<div id="slider"></div>
+		<div id="memoire"></div>
+		<div id="volume">50</div>
+		<div id="radioStream"></div>
+					<div class="eq">
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			</div>
+		
+		<div class="hd off">
+			<img class="off" src="https://www.radioking.com/widgets/player/images/legacy/hd_off.png" alt="HD">
+			<img class="on" src="https://www.radioking.com/widgets/player/images/legacy/hd_on.png" alt="HD">
+		</div>
+
+	</div>
+</div>
+
+
+<!-- ZONE DES SCRIPTS -->
+
+<script type="text/javascript">
+    $typeplayer = "big";
+    $urlflux = "https:\/\/www.radioking.com\/play\/dh-sht-jf-lljwl";
+    $idradio = "364342";
+    var radioName = "\u0627\u0630\u0627\u0639\u0629 \u0634\u0627\u062a \u062c\u0641\u0649 \u0644\u0644\u062c\u0648\u0627\u0644";
+    var AutoPlay = "1";
+    var radioSite = "";
+    var apiURL = "https://www.radioking.com/widgets/api/v1";
+    var coverimg = "https:\/\/d1taocs3kfk7z6.cloudfront.net\/track\/cover\/3b297613-4356-4eaf-955b-39235cb4d407";
+    var streams = [{"idstream":414067,"status":"active","type":1}];
+    $couleur = "#1E7FCB";
+    $iditunes = null;
+
+    $partage = "1";
+    $popup = "1";
+    $itunes = "1";
+    $pochette = "1";
+    $equalizer = "1";
+
+    $host = "www.radioking.com";
+    $port = "80";
+
+    $taillePlayerW = 445;
+    $taillePlayerH = 196;
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script type="text/javascript" src="https://www.radioking.com/widgets/player/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="https://www.radioking.com/widgets/player/js/system.min.js"></script>
+<script type="text/javascript" src="https://www.radioking.com/widgets/player/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="https://www.radioking.com/widgets/player/js/legacy/player.js"></script>
+
+<script type="text/javascript">
+	changeSize($taillePlayerW, $taillePlayerH);
+</script>
+</body>
+
+</html>
