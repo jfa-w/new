@@ -191,7 +191,9 @@ div#tlogins .fl.mini.u-msg {
     padding: 0px 0 !important;
     background-color: #141414;
 }
-
+.ssss {
+    display: none !important;
+}
 
 .des2 {
     background-color: #fff;
