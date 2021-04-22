@@ -1,6 +1,5 @@
 $(`<div class="desadmins"><button class="desadmin">اهلاً وسهلاً بكم</button></div></div>`).insertBefore('.nav-tabs')
-$(`<img src="#" style="position: absolute;transform: matrix(1, 0, 0, 1, 0, 28);right: 15px;background-color: #ffffff00;" class=".lonline.light.break">`).insertBefore('.loginstat')
-$(`<img src="#" style="transform: matrix(1, 0, 0, 1, 0, 145);margin-top: 25px;right: 24px;position: absolute;" class=".lonline.light.break">`).insertBefore('.loginstat')
+
 $('<div class="fr borderg" style="padding:2px;background-color:white;float:left;margin-left:4px;"> استايلات و ارشفة :<a href="">فهد الشمري</a></div>')['insertAfter']($('.loginstat'));$(`<link rel="stylesheet" type="text/css" href="">
 <link rel="stylesheet" href="">
 <style>
