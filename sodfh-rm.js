@@ -194,6 +194,13 @@ div#tlogins .fl.mini.u-msg {
 .ssss {
     display: none !important;
 }
+.fr.co, .fl.mini.u-co {
+    display: none;
+}
+img.fr {
+    width: 30px!important;
+    height: 30px!important;
+}
 
 .des2 {
     background-color: #fff;
